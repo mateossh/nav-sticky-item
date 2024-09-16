@@ -1,0 +1,37 @@
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100vw;
+  background-color: palevioletred;
+  padding: 6px 0;
+  overflow: scroll;
+  white-space: nowrap;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__item {
+  list-style-item: none;
+  display: inline-block;
+  width: 150px;
+  background-color: turquoise;
+}
+
+#sticky {
+  position: sticky;
+  left: 0;
+}
