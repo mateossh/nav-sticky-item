@@ -1,11 +1,8 @@
-/* Hide scrollbar for IE, Edge and Firefox */
-.example {
-}
-
 body,
 ul {
   margin: 0;
   padding: 0;
+  background: lightsalmon;
 }
 
 .nav {
